@@ -12,23 +12,52 @@ export default function Contact() {
   });
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) {
       setToastMessage('Please fill in all required fields.');
       setShowToast(true);
       return;
     }
-    // Simulate successful form submission
-    setToastMessage(`Thanks, ${formData.name}! Your message has been sent successfully.`);
-    setShowToast(true);
-    setFormData({ name: '', email: '', subject: '', message: '' });
+
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          access_key: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || '2965f6d8-3a47-46ee-b91e-0e24988074c9',
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject || 'New Contact Form Submission',
+          message: formData.message,
+        }),
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        setToastMessage(`Thanks, ${formData.name}! Your message has been sent successfully.`);
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        setToastMessage(result.message || 'Something went wrong. Please try again.');
+      }
+    } catch (error) {
+      setToastMessage('Failed to send message. Please check your connection.');
+    } finally {
+      setIsSubmitting(false);
+      setShowToast(true);
+    }
   };
 
   // Auto close toast
@@ -149,11 +178,12 @@ export default function Contact() {
               <div className="pt-6">
                 <motion.button
                   type="submit"
-                  className="w-full py-5 rounded-xl font-display font-bold text-base md:text-lg tracking-wider uppercase text-white bg-gradient-to-r from-emerald-600 via-teal-600 to-lime-600 shadow-[0_6px_25px_rgba(16,185,129,0.45)] hover:shadow-[0_10px_35px_rgba(20,184,166,0.65)] transition-all duration-300"
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
+                  disabled={isSubmitting}
+                  className="w-full py-5 rounded-xl font-display font-bold text-base md:text-lg tracking-wider uppercase text-white bg-gradient-to-r from-emerald-600 via-teal-600 to-lime-600 shadow-[0_6px_25px_rgba(16,185,129,0.45)] hover:shadow-[0_10px_35px_rgba(20,184,166,0.65)] transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                  whileHover={isSubmitting ? {} : { scale: 1.02 }}
+                  whileTap={isSubmitting ? {} : { scale: 0.98 }}
                 >
-                  Send Message
+                  {isSubmitting ? 'Sending...' : 'Send Message'}
                 </motion.button>
               </div>
             </form>
