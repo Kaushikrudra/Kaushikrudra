@@ -224,7 +224,8 @@ export const projectGroups: ProjectGroup[] = [
         description: 'Full-stack eCommerce platform with product catalog, cart, mock checkout, and order history, with a Tailwind CSS UI styled around a luxury brand aesthetic.',
         tags: ['MongoDB', 'Express.js', 'React.js', 'Node.js'],
         githubUrl: 'https://github.com/Kaushikrudra/ecommerce-project',
-        image: '/ecommercewebsite%20banner.png'
+        image: '/ecommercewebsite%20banner.png',
+        liveUrl: 'https://ecommerce-project-black-five.vercel.app/'
       }
     ]
   },
