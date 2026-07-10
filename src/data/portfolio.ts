@@ -210,6 +210,15 @@ export const projectGroups: ProjectGroup[] = [
         image: '/plivo%20server%20banner.png'
       },
       {
+        title: 'Gold Gym Website',
+        duration: 'Jun 2026 – Jun 2026',
+        description: 'Developed a modern, responsive, and interactive fitness website for Gold Gym using React.js and CSS3, featuring a BMI calculator, membership plans, trainer profiles, and workout programs.',
+        tags: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'React Icons'],
+        githubUrl: 'https://github.com/Kaushikrudra/Gold-Gym-Website',
+        image: '/goldgym%20banner.png',
+        liveUrl: 'https://gold-gym-website08.netlify.app/'
+      },
+      {
         title: 'Edwin Incorporation – Corporate Website & Academic Services Platform',
         duration: 'May 2026 – Jun 2026',
         description: 'Designed and developed the official corporate website for Edwin Incorporation covering academic, research, publication, conference, HR, and technology solutions.',
