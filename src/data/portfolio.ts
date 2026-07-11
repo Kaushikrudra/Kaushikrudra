@@ -210,13 +210,13 @@ export const projectGroups: ProjectGroup[] = [
         image: '/plivo%20server%20banner.png'
       },
       {
-        title: 'Gold Gym Website',
+        title: 'NeoFit-Gym Website',
         duration: 'Jun 2026 – Jun 2026',
-        description: 'Developed a modern, responsive, and interactive fitness website for Gold Gym using React.js and CSS3, featuring a BMI calculator, membership plans, trainer profiles, and workout programs.',
+        description: 'Developed a modern, responsive, and interactive fitness website for NeoFit Gym using React.js and CSS3, featuring a BMI calculator, membership plans, trainer profiles, and workout programs.',
         tags: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'React Icons', 'Netlify', 'SEO'],
         githubUrl: 'https://github.com/Kaushikrudra/Gold-Gym-Website',
         image: '/goldgym%20banner.png',
-        liveUrl: 'https://gold-gym-website08.netlify.app/'
+        liveUrl: 'https://neofit-gym-website08.netlify.app/'
       },
       {
         title: 'Edwin Incorporation – Corporate Website & Academic Services Platform',
