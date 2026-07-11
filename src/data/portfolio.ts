@@ -215,7 +215,7 @@ export const projectGroups: ProjectGroup[] = [
         description: 'Developed a modern, responsive, and interactive fitness website for NeoFit Gym using React.js and CSS3, featuring a BMI calculator, membership plans, trainer profiles, and workout programs.',
         tags: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'React Icons', 'Netlify', 'SEO'],
         githubUrl: 'https://github.com/Kaushikrudra/Gold-Gym-Website',
-        image: '/goldgym%20banner.png',
+        image: '/neofitgym%20banner.png',
         liveUrl: 'https://neofit-gym-website08.netlify.app/'
       },
       {
