@@ -198,7 +198,8 @@ export const projectGroups: ProjectGroup[] = [
         description: 'Designed and developed a full multi-page restaurant website for Clock Tower Chinese Restaurant (Jabalpur) under Xanvoraa Tech. Built a Chinese dragon-themed dark UI with gold and deep-red accents, featuring dedicated Home, Menu, Gallery, About, and Contact pages using React Router. Implemented a video-background hero section, an interactive filterable menu with category tabs (Starters, Mains, Seafood), a photo gallery, and a table reservation form. Optimized images for fast load times while maintaining visual quality, and deployed the site on Netlify.',
         tags: ['React (Vite)', 'React Router', 'Tailwind CSS', 'Framer Motion', 'Netlify'],
         githubUrl: 'https://github.com/Kaushikrudra/clock-tower-restaurant-website',
-        image: '/clocktowerrestaurant%20banner.webp'
+        image: '/clocktowerrestaurant%20banner.webp',
+        liveUrl: 'https://clock-tower-restaurant.netlify.app/'
       },
       {
         title: 'HumanixAI – AI Content Platform',
