@@ -50,7 +50,7 @@ export default function Projects() {
                     >
                       <div>
                         {/* Project Banner Image */}
-                        <img src={project.image} alt={project.title} className="w-full h-48 md:h-56 object-cover rounded-t-2xl" />
+                        <img src={project.image} alt={project.title} className="w-full h-48 md:h-56 object-cover rounded-t-2xl" loading="lazy" />
 
                         {/* Project Card Content */}
                         <div className="p-8 space-y-5">

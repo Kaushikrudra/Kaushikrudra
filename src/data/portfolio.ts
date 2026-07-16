@@ -82,7 +82,7 @@ export const heroData = {
   roles: ['Software Developer', 'Full Stack Developer'],
   bio: 'Software Developer with 4+ years of experience designing and delivering full-stack web applications using Java, Python, JavaScript, TypeScript, React.js, Node.js, and the MERN Stack. Proven expertise in REST API development, AI integration, CRM and telephony automation, and cloud deployment. I own projects end-to-end — from architecture and database design to responsive UI and production deployment.',
   cvUrl: '/Kaushik_Resume.pdf',
-  profileImg: '/image.png',
+  profileImg: '/image.webp',
 };
 
 export const skillCategories: SkillCategory[] = [
@@ -157,7 +157,7 @@ export const experiences: Experience[] = [
     duration: 'Apr 2026 - Present',
     description: 'Built Edwin Calling Solution, an AI-powered telephony system with a 14-agent ring, Plivo, Zoho CRM, SIP, and voicemail, replacing Teleforce. Developed AI-based API integrations for the company website and CRM automation pipelines, and maintained Bolna AI workflows. Developed and maintained OJS academic journal websites with AI-integrated content features using the Gemini API. Built an AI-powered outbound calling tool for the sales team to streamline lead outreach.',
     tags: ['AI Integration', 'Plivo', 'Zoho CRM', 'Telephony', 'Gemini API'],
-    logo: '/edwin%20logo.png'
+    logo: '/edwin%20logo.webp'
   },
   {
     role: 'Full Stack Developer',
@@ -166,7 +166,7 @@ export const experiences: Experience[] = [
     duration: 'Jan 2024 - Feb 2026',
     description: 'Built scalable front-end interfaces using React.js, HTML, CSS, and JavaScript with reusable component libraries. Debugged cross-browser UI/UX issues across client projects.',
     tags: ['React.js', 'JavaScript', 'HTML', 'CSS', 'UI/UX'],
-    logo: '/taritanlogo.png'
+    logo: '/taritanlogo.webp'
   },
   {
     role: 'Software Engineer (Remote)',
@@ -175,7 +175,7 @@ export const experiences: Experience[] = [
     duration: 'Dec 2021 - Dec 2023',
     description: 'Developed scalable backend services and RESTful APIs using Node.js, Express.js, Python, and Java (Spring Boot). Integrated and optimized data layers across MySQL and MongoDB for high-traffic features. Built responsive React.js components and implemented CI/CD pipelines on Azure DevOps within Agile teams.',
     tags: ['Node.js', 'Express.js', 'Python', 'Spring Boot', 'MySQL', 'MongoDB', 'Azure DevOps'],
-    logo: '/buzzartlogo.png'
+    logo: '/buzzartlogo.webp'
   }
 ];
 
@@ -189,8 +189,16 @@ export const projectGroups: ProjectGroup[] = [
         description: 'Full-stack WhatsApp bulk messaging platform for Xanvoraa (own startup) with Baileys QR auth, CSV contacts, variable-based templates, a Bull/Redis campaign engine with anti-ban delays, a two-way chat inbox, Supabase media storage, and a Recharts analytics dashboard. Deployed on Render.',
         tags: ['React (Vite)', 'Node.js', 'Baileys', 'Bull/Redis', 'Supabase'],
         githubUrl: 'https://github.com/Kaushikrudra/Whatsapp-tool-bulk-message',
-        image: '/bulkmessage%20banner.png',
+        image: '/bulkmessage%20banner.webp',
         liveUrl: 'https://whatsapp-tool-bulk-message-frontend.onrender.com'
+      },
+      {
+        title: 'Clock Tower Chinese Restaurant Website',
+        duration: 'Jul 2026',
+        description: 'Designed and developed a full multi-page restaurant website for Clock Tower Chinese Restaurant (Jabalpur) under Xanvoraa Tech. Built a Chinese dragon-themed dark UI with gold and deep-red accents, featuring dedicated Home, Menu, Gallery, About, and Contact pages using React Router. Implemented a video-background hero section, an interactive filterable menu with category tabs (Starters, Mains, Seafood), a photo gallery, and a table reservation form. Optimized images for fast load times while maintaining visual quality, and deployed the site on Netlify.',
+        tags: ['React (Vite)', 'React Router', 'Tailwind CSS', 'Framer Motion', 'Netlify'],
+        githubUrl: 'https://github.com/Kaushikrudra/clock-tower-restaurant-website',
+        image: '/clocktowerrestaurant%20banner.webp'
       },
       {
         title: 'HumanixAI – AI Content Platform',
@@ -198,16 +206,8 @@ export const projectGroups: ProjectGroup[] = [
         description: 'Full-stack AI content platform to generate, humanize, paraphrase, and detect text on a Next.js 16 monorepo with credit-based usage, Google OAuth, and Stripe billing. Backend migrated to Next.js API routes with Prisma + Supabase.',
         tags: ['Next.js', 'TypeScript', 'Prisma', 'Stripe', 'Gemini API'],
         githubUrl: 'https://github.com/Kaushikrudra/Humanix_Ai',
-        image: '/humanixai%20banner.png',
+        image: '/humanixai%20banner.webp',
         liveUrl: 'https://humanix-ai.vercel.app/'
-      },
-      {
-        title: 'Edwin Calling Solution – AI Telephony',
-        duration: 'Jun 2026 – Present',
-        description: 'In-house telephony system replacing Teleforce: 14-agent ring, Plivo Browser SDK, Zoho CRM, call recording, voicemail, and a real-time dashboard. Hosted on Hostinger + Supabase.',
-        tags: ['Node.js', 'Plivo', 'Supabase', 'Zoho CRM'],
-        githubUrl: 'https://github.com/Kaushikrudra/plivo-server',
-        image: '/plivo%20server%20banner.png'
       },
       {
         title: 'NeoFit-Gym Website',
@@ -215,7 +215,7 @@ export const projectGroups: ProjectGroup[] = [
         description: 'Developed a modern, responsive, and interactive fitness website for NeoFit Gym using React.js and CSS3, featuring a BMI calculator, membership plans, trainer profiles, and workout programs.',
         tags: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'React Icons', 'Netlify', 'SEO'],
         githubUrl: 'https://github.com/Kaushikrudra/Gold-Gym-Website',
-        image: '/neofitgym%20banner.png',
+        image: '/neofitgym%20banner.webp',
         liveUrl: 'https://neofit-gym-website08.netlify.app/'
       },
       {
@@ -224,7 +224,7 @@ export const projectGroups: ProjectGroup[] = [
         description: 'Designed and developed the official corporate website for Edwin Incorporation covering academic, research, publication, conference, HR, and technology solutions.',
         tags: ['React.js', 'Tailwind CSS'],
         githubUrl: 'https://github.com/Kaushikrudra/Edwin_Website_Official',
-        image: '/edwin%20banner.png',
+        image: '/edwin%20banner.webp',
         liveUrl: 'https://edwin.co.in/'
       },
       {
@@ -233,7 +233,7 @@ export const projectGroups: ProjectGroup[] = [
         description: 'Full-stack eCommerce platform with product catalog, cart, mock checkout, and order history, with a Tailwind CSS UI styled around a luxury brand aesthetic.',
         tags: ['MongoDB', 'Express.js', 'React.js', 'Node.js'],
         githubUrl: 'https://github.com/Kaushikrudra/ecommerce-project',
-        image: '/ecommercewebsite%20banner.png',
+        image: '/ecommercewebsite%20banner.webp',
         liveUrl: 'https://ecommerce-project-black-five.vercel.app/'
       }
     ]
@@ -242,12 +242,20 @@ export const projectGroups: ProjectGroup[] = [
     category: 'Automation & Tools',
     projects: [
       {
+        title: 'Edwin Calling Solution – AI Telephony',
+        duration: 'Jun 2026 – Present',
+        description: 'In-house telephony system replacing Teleforce: 14-agent ring, Plivo Browser SDK, Zoho CRM, call recording, voicemail, and a real-time dashboard. Hosted on Hostinger + Supabase.',
+        tags: ['Node.js', 'Plivo', 'Supabase', 'Zoho CRM'],
+        githubUrl: 'https://github.com/Kaushikrudra/plivo-server',
+        image: '/plivo%20server%20banner.webp'
+      },
+      {
         title: 'Autonomous Coding Agent (Healer + Playground)',
         duration: 'Jun 2026 – Present',
         description: 'Docker-sandboxed DevOps agent with a self-healing loop (run tests → Gemini analysis → apply patch → retest), an SSE live dashboard, and a multi-language AI code-generation playground with rollback support.',
         tags: ['Node.js', 'Docker', 'Gemini API'],
         githubUrl: 'https://github.com/Kaushikrudra/autonomous-coding-agent',
-        image: '/Autonomouscoding%20agent%20banner.png'
+        image: '/Autonomouscoding%20agent%20banner.webp'
       },
       {
         title: 'Law Acts Text Processor',
@@ -255,7 +263,7 @@ export const projectGroups: ProjectGroup[] = [
         description: 'Python tool to extract and categorize legal documents from ZIP archives using zipfile and PyPDF2, with exception handling for corrupted files.',
         tags: ['Python', 'PyPDF2'],
         githubUrl: 'https://github.com/Kaushikrudra/law-acts-processor',
-        image: '/law%20acttext%20processor%20banner.png'
+        image: '/law%20acttext%20processor%20banner.webp'
       }
     ]
   }
