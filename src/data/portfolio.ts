@@ -256,6 +256,7 @@ export const projectGroups: ProjectGroup[] = [
         description: 'Docker-sandboxed DevOps agent with a self-healing loop (run tests → Gemini analysis → apply patch → retest), an SSE live dashboard, and a multi-language AI code-generation playground with rollback support.',
         tags: ['Node.js', 'Docker', 'Gemini API'],
         githubUrl: 'https://github.com/Kaushikrudra/autonomous-coding-agent',
+        liveUrl: 'https://autonomous-coding-agent.onrender.com/',
         image: '/Autonomouscoding%20agent%20banner.webp'
       },
       {
