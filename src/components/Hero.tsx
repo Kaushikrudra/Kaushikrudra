@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
+import { HiSparkles } from 'react-icons/hi2';
 import { heroData, contactInfo } from '../data/portfolio';
 
 // Custom typewriter component for typing words
@@ -120,7 +121,7 @@ export default function Hero() {
             </div>
           </motion.div>
 
-          {/* Right: Profile Image */}
+          {/* Right: Profile Image with Floating Badges */}
           <motion.div
             className="lg:col-span-5 flex justify-center lg:justify-end items-center"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -146,6 +147,32 @@ export default function Hero() {
                   />
                 </div>
               </div>
+
+              {/* Floating Stat Badge 1: Top-Right (Experience) */}
+              <motion.div
+                initial={{ opacity: 0, y: 15, scale: 0.85 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                transition={{ duration: 0.6, delay: 0.5, ease: 'easeOut' }}
+                className="absolute top-1 -right-2 sm:top-4 sm:-right-4 md:top-8 md:-right-6 lg:top-10 lg:-right-8 z-20"
+              >
+                <motion.div
+                  animate={{ y: [0, -7, 0] }}
+                  transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
+                  className="flex items-center gap-2.5 sm:gap-3 px-3 py-2 sm:px-4 sm:py-3 bg-[#0d0d15]/85 backdrop-blur-md border border-emerald-500/30 rounded-xl sm:rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.6),0_0_15px_rgba(16,185,129,0.15)] hover:border-emerald-400/50 hover:shadow-[0_10px_35px_rgba(0,0,0,0.7),0_0_25px_rgba(16,185,129,0.3)] transition-all duration-300 pointer-events-auto"
+                >
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 text-base sm:text-xl shrink-0 shadow-inner">
+                    <HiSparkles />
+                  </div>
+                  <div>
+                    <div className="text-sm sm:text-base md:text-lg font-extrabold text-white font-display leading-none">
+                      4+ Years
+                    </div>
+                    <div className="text-[11px] sm:text-xs text-gray-300 font-medium font-sans mt-0.5 tracking-wide">
+                      Experience
+                    </div>
+                  </div>
+                </motion.div>
+              </motion.div>
             </div>
           </motion.div>
         </div>
