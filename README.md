@@ -9,7 +9,7 @@
 
 # Hey there! I'm **Kaushik Rudra**
 
-### AI Full Stack Developer · Founder @ Xanvoraa Technologies
+### AI Full Stack Developer · Co-Founder @ Xanvoraa Technologies
 
 <p align="left">
   <a href="https://github.com/Kaushikrudra">
