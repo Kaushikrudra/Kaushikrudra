@@ -47,7 +47,78 @@ const kaushikRudra = {
 };
 ```
 
-> *"The best way to predict the future is to invent it."* – Alan Kay
+> *"Talk is cheap. Show me the code."* – Linus Torvalds
+
+---
+
+## Featured Projects
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Kaushikrudra/autonomous-coding-agent">
+        <strong>⚡ Autonomous Coding Agent</strong>
+      </a>
+      <br/><br/>
+      A Node.js-based autonomous coding agent designed to run and validate test suites inside Docker.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Kaushikrudra/ecommerce-project">
+        <strong>🛒 Ecommerce Project</strong>
+      </a>
+      <br/><br/>
+      MERN stack eCommerce website.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Kaushikrudra/Edwin_Website_Official">
+        <strong>🌐 Edwin Website Official</strong>
+      </a>
+      <br/><br/>
+      Official website for Edwin Incorporation — supports research publication, journal indexing, conference management, and academic consulting.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Kaushikrudra/Humanix_Ai-">
+        <strong>🧠 HumanixAI</strong>
+      </a>
+      <br/><br/>
+      All-in-one platform featuring AI Content Generation, AI Text Humanizer, Paraphraser, and AI Pattern Detector.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+      <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
+      <img src="https://img.shields.io/badge/Gemini_2.5-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini 2.5" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Kaushikrudra/Whatsapp-tool-bulk-message">
+        <strong>💬 WhatsApp Bulk Message Tool</strong>
+      </a>
+      <br/><br/>
+      A self-hosted bulk WhatsApp broadcasting & campaign manager with QR-code device pairing, Excel/CSV contact parsing, dynamic templates with variable interpolation, and Redis-backed sequential messaging.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+    </td>
+    <td width="50%" valign="top">
+    </td>
+  </tr>
+</table>
 
 ---
 
