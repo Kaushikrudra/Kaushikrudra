@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,20,24&height=200&section=header&text=KAUSHIK%20RUDRA&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
 </p>
 
-# Software Developer by day, startup builder by passion. Welcome to my corner of GitHub.
+# Hey there! I'm **Kaushik Rudra**
 
 ### Full Stack Developer · Co-Founder @ Xanvoraa Technologies
 
@@ -27,6 +27,8 @@
 ---
 
 ## About Me
+
+_Software Developer by day, startup builder by passion. Welcome to my corner of GitHub._
 
 ```javascript
 const kaushikRudra = {
