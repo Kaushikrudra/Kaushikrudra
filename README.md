@@ -190,6 +190,8 @@ const kaushikRudra = {
 ## GitHub Stats
 
 <p align="left">
+  <img src="https://github-readme-stats-tawny-seven-80.vercel.app/api?username=Kaushikrudra&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" height="180"/>
+  <img src="https://github-readme-stats-tawny-seven-80.vercel.app/api/top-langs/?username=Kaushikrudra&layout=compact&langs_count=8&theme=tokyonight" height="180"/>
   <img src="https://streak-stats.demolab.com?user=Kaushikrudra&theme=dark&hide_border=true" alt="Kaushikrudra GitHub Streak" />
 </p>
 
