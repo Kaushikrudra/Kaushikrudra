@@ -202,7 +202,7 @@ const kaushikRudra = {
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <img src="https://github-readme-stats-tawny-seven-80.vercel.app/api?username=Kaushikrudra&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=1" />
+      <img src="https://github-readme-stats-tawny-seven-80.vercel.app/api?username=Kaushikrudra&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true&cache_seconds=1" />
     </td>
     <td width="50%" valign="top">
       <img src="https://streak-stats.demolab.com?user=Kaushikrudra&theme=tokyonight&hide_border=true" alt="Kaushikrudra GitHub Streak" />
