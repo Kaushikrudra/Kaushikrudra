@@ -189,11 +189,24 @@ const kaushikRudra = {
 
 ## GitHub Stats
 
-<p align="left">
-  <img src="https://github-readme-stats-tawny-seven-80.vercel.app/api?username=Kaushikrudra&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" height="180"/>
-  <img src="https://github-readme-stats-tawny-seven-80.vercel.app/api/top-langs/?username=Kaushikrudra&layout=compact&langs_count=8&theme=tokyonight" height="180"/>
-  <img src="https://streak-stats.demolab.com?user=Kaushikrudra&theme=dark&hide_border=true" alt="Kaushikrudra GitHub Streak" />
-</p>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://github-readme-stats-tawny-seven-80.vercel.app/api?username=Kaushikrudra&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://streak-stats.demolab.com?user=Kaushikrudra&theme=tokyonight&hide_border=true" alt="Kaushikrudra GitHub Streak" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://github-readme-stats-tawny-seven-80.vercel.app/api/top-langs/?username=Kaushikrudra&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://github-profile-trophy.vercel.app/?username=Kaushikrudra&theme=tokyonight&no-frame=true&row=2&column=3&margin-w=10&margin-h=10" />
+    </td>
+  </tr>
+</table>
 
 ---
 
