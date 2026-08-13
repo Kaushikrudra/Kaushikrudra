@@ -22,6 +22,9 @@
   <a href="mailto:Kaushikrudra610@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
+  <a href="https://www.upwork.com/freelancers/~01fe37ac9b7574f079" target="_blank">
+    <img src="https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork" />
+  </a>
 </p>
 
 ---
