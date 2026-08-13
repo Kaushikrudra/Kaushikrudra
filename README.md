@@ -26,7 +26,7 @@
     <img src="https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork" />
   </a>
   <a href="https://github.com/Kaushikrudra/Kaushikrudra/raw/main/public/Kaushik_Resume.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/Resume-View-orange?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume" />
+    <img src="https://img.shields.io/badge/Resume-View-red?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume" />
   </a>
 </p>
 
