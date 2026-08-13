@@ -25,7 +25,7 @@
   <a href="https://www.upwork.com/freelancers/~01fe37ac9b7574f079" target="_blank">
     <img src="https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork" />
   </a>
-  <a href="https://github.com/Kaushikrudra/kaushik-portfolio/raw/main/public/Kaushik_Resume.pdf" target="_blank">
+  <a href="https://github.com/Kaushikrudra/Kaushikrudra/raw/main/public/Kaushik_Resume.pdf" target="_blank">
     <img src="https://img.shields.io/badge/Resume-View-orange?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume" />
   </a>
 </p>
