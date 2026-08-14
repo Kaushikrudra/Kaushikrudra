@@ -219,6 +219,14 @@ const kaushikRudra = {
       <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kaushikrudra&theme=tokyo-night&hide_border=true" />
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kaushikrudra&theme=tokyonight" />
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Kaushikrudra&theme=tokyonight" />
+    </td>
+  </tr>
 </table>
 
 ---
