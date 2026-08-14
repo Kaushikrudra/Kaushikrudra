@@ -205,26 +205,26 @@ const kaushikRudra = {
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <img width="100%" src="https://github-readme-stats-tawny-seven-80.vercel.app/api?username=Kaushikrudra&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true&cache_seconds=1" />
+      <img height="195" src="https://github-readme-stats-tawny-seven-80.vercel.app/api?username=Kaushikrudra&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true&cache_seconds=1" />
     </td>
     <td width="50%" valign="top">
-      <img width="100%" src="https://github-readme-streak-stats-eight.vercel.app?user=Kaushikrudra&theme=tokyonight&hide_border=true" alt="Kaushikrudra GitHub Streak" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img width="100%" src="https://github-readme-stats-tawny-seven-80.vercel.app/api/top-langs/?username=Kaushikrudra&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=1" />
-    </td>
-    <td width="50%" valign="top">
-      <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Kaushikrudra&theme=tokyo-night&hide_border=true" />
+      <img height="195" src="https://github-readme-streak-stats-eight.vercel.app?user=Kaushikrudra&theme=tokyonight&hide_border=true" alt="Kaushikrudra GitHub Streak" />
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kaushikrudra&theme=tokyonight" />
+      <img height="195" src="https://github-readme-stats-tawny-seven-80.vercel.app/api/top-langs/?username=Kaushikrudra&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=1" />
     </td>
     <td width="50%" valign="top">
-      <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Kaushikrudra&theme=tokyonight" />
+      <img height="195" src="https://github-readme-activity-graph.vercel.app/graph?username=Kaushikrudra&theme=tokyo-night&hide_border=true" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kaushikrudra&theme=tokyonight" />
+    </td>
+    <td width="50%" valign="top">
+      <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Kaushikrudra&theme=tokyonight" />
     </td>
   </tr>
 </table>
