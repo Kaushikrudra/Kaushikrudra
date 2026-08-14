@@ -220,10 +220,12 @@ const kaushikRudra = {
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center" valign="top" style="padding:10px;">
-      <img width="100%" style="max-width:100%;" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kaushikrudra&theme=tokyonight" />
+    <td colspan="2" align="center" valign="top" style="padding:10px;">
+      <img width="100%" style="width:100%; max-width:900px; height:auto;" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kaushikrudra&theme=tokyonight" />
     </td>
-    <td width="50%" align="center" valign="top" style="padding:10px;">
+  </tr>
+  <tr>
+    <td colspan="2" align="center" valign="top" style="padding:10px;">
       <img width="100%" style="max-width:100%;" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Kaushikrudra&theme=tokyonight" />
     </td>
   </tr>
