@@ -202,29 +202,29 @@ const kaushikRudra = {
 
 ## GitHub Stats
 
-<table width="100%" cellpadding="10">
+<table align="center" width="100%" style="width:100%; border-collapse:collapse;">
   <tr>
-    <td width="50%" align="center" valign="top" style="padding: 10px;">
-      <img height="195" src="https://github-readme-stats-tawny-seven-80.vercel.app/api?username=Kaushikrudra&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true&cache_seconds=1" />
+    <td width="50%" align="center" valign="top" style="padding:10px;">
+      <img width="100%" style="max-width:100%;" src="https://github-readme-stats-tawny-seven-80.vercel.app/api?username=Kaushikrudra&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true&cache_seconds=1" />
     </td>
-    <td width="50%" align="center" valign="top" style="padding: 10px;">
-      <img height="195" src="https://github-readme-streak-stats-eight.vercel.app?user=Kaushikrudra&theme=tokyonight&hide_border=true" alt="Kaushikrudra GitHub Streak" />
+    <td width="50%" align="center" valign="top" style="padding:10px;">
+      <img width="100%" style="max-width:100%;" src="https://github-readme-streak-stats-eight.vercel.app?user=Kaushikrudra&theme=tokyonight&hide_border=true" alt="Kaushikrudra GitHub Streak" />
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center" valign="top" style="padding: 10px;">
-      <img height="195" src="https://github-readme-stats-tawny-seven-80.vercel.app/api/top-langs/?username=Kaushikrudra&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=1" />
+    <td width="50%" align="center" valign="top" style="padding:10px;">
+      <img width="100%" style="max-width:100%;" src="https://github-readme-stats-tawny-seven-80.vercel.app/api/top-langs/?username=Kaushikrudra&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=1" />
     </td>
-    <td width="50%" align="center" valign="top" style="padding: 10px;">
-      <img height="195" src="https://github-readme-activity-graph.vercel.app/graph?username=Kaushikrudra&theme=tokyo-night&hide_border=true" />
+    <td width="50%" align="center" valign="top" style="padding:10px;">
+      <img width="100%" style="max-width:100%;" src="https://github-readme-activity-graph.vercel.app/graph?username=Kaushikrudra&theme=tokyo-night&hide_border=true" />
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center" valign="top" style="padding: 10px;">
-      <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kaushikrudra&theme=tokyonight" />
+    <td width="50%" align="center" valign="top" style="padding:10px;">
+      <img width="100%" style="max-width:100%;" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kaushikrudra&theme=tokyonight" />
     </td>
-    <td width="50%" align="center" valign="top" style="padding: 10px;">
-      <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Kaushikrudra&theme=tokyonight" />
+    <td width="50%" align="center" valign="top" style="padding:10px;">
+      <img width="100%" style="max-width:100%;" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Kaushikrudra&theme=tokyonight" />
     </td>
   </tr>
 </table>
