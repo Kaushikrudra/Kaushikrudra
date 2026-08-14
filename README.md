@@ -221,7 +221,7 @@ const kaushikRudra = {
   </tr>
   <tr>
     <td colspan="2" align="center" valign="top" style="padding:10px;">
-      <img style="width:60%; max-width:500px; height:auto;" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kaushikrudra&theme=tokyonight" />
+      <img width="100%" style="width:100%; max-width:900px; height:auto;" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kaushikrudra&theme=tokyonight" />
     </td>
   </tr>
   <tr>
