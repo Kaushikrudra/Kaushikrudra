@@ -216,7 +216,7 @@ const kaushikRudra = {
       <img width="100%" style="max-width:100%;" src="https://github-readme-stats-tawny-seven-80.vercel.app/api/top-langs/?username=Kaushikrudra&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=1" />
     </td>
     <td width="50%" align="center" valign="top" style="padding:10px;">
-      <img width="100%" style="max-width:100%;" src="https://github-readme-activity-graph.vercel.app/graph?username=Kaushikrudra&theme=tokyo-night&hide_border=true" />
+      <img width="100%" style="max-width:100%;" src="https://github-readme-activity-graph-green-delta.vercel.app/graph?username=Kaushikrudra&theme=tokyo-night&hide_border=true" />
     </td>
   </tr>
   <tr>
